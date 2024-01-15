@@ -1,0 +1,50 @@
+*,
+html {
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+button {
+    background-color: #009dff;
+    padding: 1rem;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: all ease-in-out 0.3s;
+}
+button:hover{
+    box-shadow: 10px 10px 0 #009dff5a;
+}
+
+img.meme__img{
+    padding-top: 1em;
+    width:280px;
+    height: 280px;
+    object-fit: contain;
+}
+
+h3{
+    padding-top: 1em;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-size: 1rem;
+    padding-bottom: 1em; 
+}
